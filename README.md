@@ -1,5 +1,5 @@
 # easy-peasy
-Basics - Good, Simple and Interesting Tutorials and blog posts
+Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
 
 ## GAN
 
@@ -7,4 +7,10 @@ Basics - Good, Simple and Interesting Tutorials and blog posts
 
 ## Github
 
-* Markdown https://guides.github.com/features/mastering-markdown/
+* [Markdown](https://guides.github.com/features/mastering-markdown/)
+
+# Intermediate Materials
+
+## GAN
+
+* [From GAN to WGAN](https://arxiv.org/pdf/1904.08994.pdf)
