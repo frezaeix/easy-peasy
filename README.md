@@ -63,6 +63,19 @@ Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
 
 ## GAN
 
-* [From GAN to WGAN](https://arxiv.org/pdf/1904.08994.pdf)]
+* [From GAN to WGAN](https://arxiv.org/pdf/1904.08994.pdf), 2019
 
 * [How to Identify and Diagnose GAN Failure Modes](https://machinelearningmastery.com/practical-guide-to-gan-failure-modes/)
+
+1-1 Summary (mainly copy pasting for myself to not forget some parts.. _check the tutorial itself!_)
+
+* GANs are difficult to train. The reason they are difficult to train is that both the generator model and the discriminator model are trained simultaneously in a zero sum game. This means that improvements to one model come at the expense of the other model.
+
+  * The goal of training two models involves finding a point of equilibrium between the two competing concerns.
+
+  * It also means that every time the parameters of one of the models are updated, the nature of the optimization problem that is being solved is changed. This has the effect of creating a dynamic system. In neural network terms, the technical challenge of training two competing neural networks at the same time is that they can fail to converge.
+  
+  * check this tutorial if you wanna know:
+    1. How to identify a stable GAN training process from the generator and discriminator loss over time.
+    2. How to identify a mode collapse by reviewing both learning curves and generated images.
+    3. How to identify a convergence failure by reviewing learning curves of generator and discriminator loss over time.
