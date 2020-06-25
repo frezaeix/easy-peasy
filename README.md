@@ -22,13 +22,25 @@ Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
 
     * We typically seek convergence of a model on a training dataset observed as the minimization of the chosen loss function on the training dataset. In a GAN, convergence signals the end of the two player game. Instead, equilibrium between generator and discriminator loss is sought.
     
-    * Described mathematically, the discriminator seeks to maximize the average of the log probability for real images and the log of the inverted probabilities of fake images.
+    * **Discriminator Loss:** Described mathematically, the discriminator seeks to maximize the average of the log probability for real images and the log of the inverted probabilities of fake images.
       
       * maximize log D(x) + log(1 – D(G(z)))
     
-    * In practice, [the loss function] may not provide sufficient gradient for G to learn well. Early in learning, when G is poor, D can reject samples with high confidence because they are clearly different from the training data.
+    * **Minimax GAN Loss:** In practice, [the loss function] may not provide sufficient gradient for G to learn well. Early in learning, when G is poor, D can reject samples with high confidence because they are clearly different from the training data.
     
+    * **Non-Saturating GAN Loss:** In practice, this is also implemented as a binary classification problem, like the discriminator. Instead of maximizing the loss, we can flip the labels for real and fake images and minimize the cross-entropy.
     
+    * **Wasserstein GAN Loss:**  The Earth-Mover’s distance calculates the distance between two probability distributions in terms of the cost of turning one distribution (pile of earth) into another.
+    
+    * The GAN using Wasserstein loss involves changing the notion of the discriminator into a critic that is updated more often (e.g. five times more often) than the generator model.
+    
+    * The critic scores images with a real value instead of predicting a probability. It also requires that model weights be kept small, e.g. clipped to a hypercube of [-0.01, 0.01].
+    
+    * The score is calculated such that the distance between scores for real and fake images are maximally separate.
+    
+    * The benefit of Wasserstein loss is that it provides a useful gradient almost everywhere, allowing for the continued training of the models. It also means that a lower Wasserstein loss correlates with better generator image quality, meaning that we are explicitly seeking a minimization of generator loss.
+    
+    * To our knowledge, this is the first time in GAN literature that such a property is shown, where the loss of the GAN shows properties of convergence.
      
     
 ## Github
