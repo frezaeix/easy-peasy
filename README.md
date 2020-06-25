@@ -41,6 +41,18 @@ Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
     * The benefit of Wasserstein loss is that it provides a useful gradient almost everywhere, allowing for the continued training of the models. It also means that a lower Wasserstein loss correlates with better generator image quality, meaning that we are explicitly seeking a minimization of generator loss.
     
     * To our knowledge, this is the first time in GAN literature that such a property is shown, where the loss of the GAN shows properties of convergence.
+    
+    * **Effect of Different GAN Loss Functions:** Many loss functions have been developed and evaluated in an effort to improve the stability of training GAN models. The most common is the non-saturating loss, generally, and the Least Squares and Wasserstein loss in larger and more recent GAN models.
+    
+    * > Despite a very rich research activity leading to numerous interesting GAN algorithms, it is still very hard to assess which algorithm(s) perform better than others. We conduct a neutral, multi-faceted large-scale empirical study on state-of-the-art models and evaluation measures. _Are GANs Created Equal? A Large-Scale Study, 2018._
+    
+    * This includes the Minimax loss (MM GAN), Non-Saturating loss (NS GAN), Wasserstein loss (WGAN), and Least-Squares loss (LS GAN) described above. The study also includes an extension of Wasserstein loss to remove the weight clipping called Wasserstein Gradient Penalty loss (WGAN GP) and two others, DRAGAN and BEGAN.
+    
+    * The models were evaluated systematically using a range of GAN evaluation metrics, including the popular Frechet Inception Distance, or FID.
+
+    * **Surprisingly, they discover that all evaluated loss functions performed approximately the same when all other elements were held constant.**
+    
+    * This does not mean that the choice of loss does not matter for specific problems and model configurations. Instead, the result suggests that the difference in the choice of loss function disappears when the other concerns of the model are held constant, such as computational budget and model configuration.
      
     
 ## Github
