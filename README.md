@@ -18,8 +18,19 @@ Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
     
     * The discriminator model is updated like any other deep learning neural network, although the generator uses the discriminator as the loss function, meaning that **the loss function for the generator is implicit and learned during training**.
     
-    *
+      * The generator is not trained directly and instead is trained via the discriminator model. Specifically, the discriminator is learned to provide the loss function for the generator.
 
+    * We typically seek convergence of a model on a training dataset observed as the minimization of the chosen loss function on the training dataset. In a GAN, convergence signals the end of the two player game. Instead, equilibrium between generator and discriminator loss is sought.
+    
+    * Described mathematically, the discriminator seeks to maximize the average of the log probability for real images and the log of the inverted probabilities of fake images.
+      
+      * maximize log D(x) + log(1 – D(G(z)))
+    
+    * In practice, [the loss function] may not provide sufficient gradient for G to learn well. Early in learning, when G is poor, D can reject samples with high confidence because they are clearly different from the training data.
+    
+    
+     
+    
 ## Github
 
 * [Markdown](https://guides.github.com/features/mastering-markdown/)
