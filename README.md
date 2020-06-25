@@ -12,11 +12,11 @@ Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
 
 * [A Gentle Introduction to Generative Adversarial Network Loss Functions](https://machinelearningmastery.com/generative-adversarial-network-loss-functions/)
   
-  1-1 Summary
+  1-1 Summary (mainly copy pasting for myself to not forget some parts.. _check the tutorial itself!_)
     
-    * The GAN architecture is relatively straightforward, although one aspect that remains challenging for beginners is the topic of GAN loss functions.
+    * The GAN architecture is relatively straightforward, although one aspect that remains challenging for beginners is the topic of **GAN loss functions**.
     
-    * The discriminator model is updated like any other deep learning neural network, although the generator uses the discriminator as the loss function, meaning that **the loss function for the generator is implicit and learned during training.
+    * The discriminator model is updated like any other deep learning neural network, although the generator uses the discriminator as the loss function, meaning that **the loss function for the generator is implicit and learned during training**.
     
     *
 
