@@ -76,6 +76,17 @@ Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
   * It also means that every time the parameters of one of the models are updated, the nature of the optimization problem that is being solved is changed. This has the effect of creating a dynamic system. In neural network terms, the technical challenge of training two competing neural networks at the same time is that they can fail to converge.
   
   * check this tutorial if you wanna know:
-    1. How to identify a stable GAN training process from the generator and discriminator loss over time.
-    2. How to identify a mode collapse by reviewing both learning curves and generated images.
-    3. How to identify a convergence failure by reviewing learning curves of generator and discriminator loss over time.
+    1. How to identify **a stable GAN training** process from the generator and discriminator loss over time.
+    2. How to identify **a mode collapse** by reviewing both learning curves and generated images.
+    3. How to identify **a convergence failure** by reviewing learning curves of generator and discriminator loss over time.
+    
+*  checking discriminator loss for real and for generated fake images
+
+* We can summarize these observations for stable GAN training as follows:
+
+  1. Discriminator loss on real and fake images is expected to sit around 0.5.
+  2. Generator loss on fake images is expected to sit between 0.5 and perhaps 2.0.
+  3. Discriminator accuracy on real and fake images is expected to sit around 80%.
+  4. Variance of generator and discriminator loss is expected to remain modest.
+  5. The generator is expected to produce its highest quality images during a period of stability.
+  6. Training stability may degenerate into periods of high-variance loss and corresponding lower quality generated images.
