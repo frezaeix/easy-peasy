@@ -11,6 +11,7 @@ Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
 *  [GAN — What is wrong with the GAN cost function?](https://medium.com/@jonathan_hui/gan-what-is-wrong-with-the-gan-cost-function-6f594162ce01), 5 min read
 
 * [A Gentle Introduction to Generative Adversarial Network Loss Functions](https://machinelearningmastery.com/generative-adversarial-network-loss-functions/)
+  
   1-1 Summary
     
     * The GAN architecture is relatively straightforward, although one aspect that remains challenging for beginners is the topic of GAN loss functions.
