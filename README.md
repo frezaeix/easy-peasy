@@ -65,7 +65,7 @@ Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
 
 * [From GAN to WGAN](https://arxiv.org/pdf/1904.08994.pdf), 2019
 
-* [How to Identify and Diagnose GAN Failure Modes](https://machinelearningmastery.com/practical-guide-to-gan-failure-modes/)
+* [How to Identify and Diagnose GAN Failure Modes](https://machinelearningmastery.com/practical-guide-to-gan-failure-modes/), Very Nice!
 
 1-1 Summary (mainly copy pasting for myself to not forget some parts.. _check the tutorial itself!_)
 
