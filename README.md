@@ -56,7 +56,7 @@ Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
      
 ## YOLO
 
-[A Guide To Build Your Own Custom Object Detector Using YoloV3](https://medium.com/analytics-vidhya/custom-object-detection-with-yolov3-8f72fe8ced79), just for testing detection in colab!
+[A Guide To Build Your Own Custom Object Detector Using YoloV3](https://medium.com/analytics-vidhya/custom-object-detection-with-yolov3-8f72fe8ced79), just for training a detector (with limited hardware) in colab!
 
 ## Github
 
