@@ -58,6 +58,10 @@ Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
 
 [A Guide To Build Your Own Custom Object Detector Using YoloV3](https://medium.com/analytics-vidhya/custom-object-detection-with-yolov3-8f72fe8ced79), just for training a detector (with limited hardware) in colab!
 
+## Other Things..
+
+[Batchnorm, frozen batchnorm](https://medium.com/@bingobee01/batch-norm-and-transfer-learning-whats-going-on-a783942b293f)
+
 ## Github
 
 * [Markdown](https://guides.github.com/features/mastering-markdown/)
