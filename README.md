@@ -62,6 +62,8 @@ Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
 
 [Batchnorm, frozen batchnorm](https://medium.com/@bingobee01/batch-norm-and-transfer-learning-whats-going-on-a783942b293f)
 
+[Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/pdf/1812.01187.pdf)
+
 ## Github
 
 * [Markdown](https://guides.github.com/features/mastering-markdown/)
