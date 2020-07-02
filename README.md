@@ -60,9 +60,11 @@ Basics - Good, Simple and Interesting Tutorials and Blog Posts Arount The Web
 
 ## Other Things..
 
-[Batchnorm, frozen batchnorm](https://medium.com/@bingobee01/batch-norm-and-transfer-learning-whats-going-on-a783942b293f)
+* [Batchnorm, frozen batchnorm](https://medium.com/@bingobee01/batch-norm-and-transfer-learning-whats-going-on-a783942b293f)
 
-[Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/pdf/1812.01187.pdf)
+* [Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/pdf/1812.01187.pdf)
+
+* [pytorch freeze weights and update param_groups](https://stackoverflow.com/questions/53159427/pytorch-freeze-weights-and-update-param-groups)
 
 ## Github
 
